@@ -17,9 +17,6 @@
 		<module>jeecg-boot-base-common</module>
 		<module>jeecg-boot-module-system</module>
 		<module>jeecg-boot-module-erp</module>
-		<module>jeecg-boot-module-oms</module>
-		<module>jeecg-boot-module-tms</module>
-		<module>jeecg-boot-module-wms</module>
 	</modules>
 
 	<distributionManagement>
