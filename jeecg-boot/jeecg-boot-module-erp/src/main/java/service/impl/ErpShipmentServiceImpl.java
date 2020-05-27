@@ -1,13 +1,9 @@
 package service.impl;
 
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import entity.ErpShipment;
 import mapper.ErpShipmentMapper;
-import org.jeecg.modules.demo.shipmentTest.entity.ErpShipment;
-import org.jeecg.modules.demo.shipmentTest.mapper.ErpShipmentMapper;
-import org.jeecg.modules.demo.shipmentTest.service.IErpShipmentService;
 import org.springframework.stereotype.Service;
-
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import service.IErpShipmentService;
 
 /**

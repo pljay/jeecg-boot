@@ -1,8 +1,7 @@
 package service;
 
-import entity.ErpShipment;
-import org.jeecg.modules.demo.shipmentTest.entity.ErpShipment;
 import com.baomidou.mybatisplus.extension.service.IService;
+import entity.ErpShipment;
 
 /**
  * @Description: 运单表
