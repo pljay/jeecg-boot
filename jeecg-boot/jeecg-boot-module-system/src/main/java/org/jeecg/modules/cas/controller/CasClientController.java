@@ -54,7 +54,7 @@ public class CasClientController {
 	
 	@GetMapping("/validateLogin")
 	public Object validateLogin(@RequestParam(name="ticket") String ticket,
-								@RequestParam(name="service") String service,
+								@RequestParam(name= "service") String service,
 								HttpServletRequest request,
 								HttpServletResponse response) throws Exception {
 		Result<JSONObject> result = new Result<JSONObject>();

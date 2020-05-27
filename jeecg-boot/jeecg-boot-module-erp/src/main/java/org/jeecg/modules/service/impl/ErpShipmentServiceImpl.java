@@ -1,10 +1,10 @@
-package service.impl;
+package org.jeecg.modules.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import entity.ErpShipment;
-import mapper.ErpShipmentMapper;
+import org.jeecg.modules.entity.ErpShipment;
+import org.jeecg.modules.mapper.ErpShipmentMapper;
 import org.springframework.stereotype.Service;
-import service.IErpShipmentService;
+import org.jeecg.modules.service.IErpShipmentService;
 
 /**
  * @Description: 运单表

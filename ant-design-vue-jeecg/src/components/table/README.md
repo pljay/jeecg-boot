@@ -68,7 +68,7 @@ Table 重封装组件说明
         queryParam: {},
         // 加载数据方法 必须为 Promise 对象
         loadData: parameter => {
-          return this.$http.get('/service', {
+          return this.$http.get(org.jeecg.modules.serviceg.modules.service', {
             params: Object.assign(parameter, this.queryParam)
           }).then(res => {
             return res.result
@@ -159,8 +159,7 @@ Table 重封装组件说明
         queryParam: {},
         // 加载数据方法 必须为 Promise 对象
         loadData: parameter => {
-          return this.$http.get('/service', {
-            params: Object.assign(parameter, this.queryParam)
+          return this.$http.get(servicerams: Object.assign(parameter, this.queryParam)
           }).then(res => {
             return res.result
           })

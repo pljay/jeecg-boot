@@ -1,7 +1,7 @@
-package service;
+package org.jeecg.modules.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import entity.ErpShipment;
+import org.jeecg.modules.entity.ErpShipment;
 
 /**
  * @Description: 运单表

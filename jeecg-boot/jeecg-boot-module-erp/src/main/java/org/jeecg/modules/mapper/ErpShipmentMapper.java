@@ -1,7 +1,7 @@
-package mapper;
+package org.jeecg.modules.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import entity.ErpShipment;
+import org.jeecg.modules.entity.ErpShipment;
 
 /**
  * @Description: 运单表
